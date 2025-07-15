@@ -26,6 +26,10 @@ main {
     gap: 1.5rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-style: none;
+    border-radius: 10px;
+}
+.head{
+    margin-top: 20px;
 }
 #height,#weight{
     height: 2rem;
@@ -44,6 +48,10 @@ main {
     .card {
         height: 60vh;
         width: 88%;
+    
+    }
+    .bmi{
+        text-align: center;
     }
 
 }
@@ -61,7 +69,9 @@ main {
     background-color: #cabb95;
 }
 .hidden-card{
-    width: 60vw;
+    width: 60%;
+    min-width:300px ;
+    max-width: 700px;
     height: 55vh;
     background-color: #faedcd;
     display: flex;
@@ -69,6 +79,7 @@ main {
     align-items: center;
     flex-direction: column;
      gap: 1.5rem;
+     border-radius: 5px;
 }
 .bm,.cate{
     text-align: center;
