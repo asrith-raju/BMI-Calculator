@@ -45,7 +45,7 @@ main {
     }
 
     .card {
-        height: 60vh;
+        height: auto;
         width: 88%;
     
     }
