@@ -36,7 +36,6 @@ main {
     border-style: none;
     border-radius: 5px;
     width: 12rem;
-    margin: 5px;
 }
 
 @media (max-width:600px) {
@@ -62,7 +61,6 @@ main {
     background-color:  #c4b389;
     font-size: medium;
     border-radius: 5px;
-    margin: auto;
     border-style: none;
 }
 .btn:hover{
