@@ -15,19 +15,19 @@ else{
     alert("enter both values")
 }
 if(c<18.5){
-    document.querySelector(".cate").innerHTML=`<b>Your:Under Weight`;
+    document.querySelector(".cate").innerHTML=`<b>You are:Under Weighted`;
 }
 else if(18.5<=c<24.9){
-    document.querySelector(".cate").innerHTML=`<b>Your:Normal Weight`;
+    document.querySelector(".cate").innerHTML=`<b>You are:Normal Weighted`;
 }
 else if(25.0<c<=29.9){
-    document.querySelector(".cate").innerHTML=`<b>Your:OverWeight`;
+    document.querySelector(".cate").innerHTML=`<b>You are:Over Weighted`;
 }
 else if(30.0<c<=34.9){
-    document.querySelector(".cate").innerHTML=`<b>Your: Obesity-1`;
+    document.querySelector(".cate").innerHTML=`<b>You Have: Obesity-1`;
 }
 else
-    document.querySelector(".cate").innerHTML=`<b>Your:Obesity-2`;
+    document.querySelector(".cate").innerHTML=`<b>You Have:Obesity-2`;
 
 
 
